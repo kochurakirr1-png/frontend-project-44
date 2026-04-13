@@ -1,2 +1,4 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/kochurakirr1-png/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/kochurakirr1-png/frontend-project-44/actions)
+
+[![ESLint Status](https://img.shields.io/badge/ESLint-passing-brightgreen.svg)](https://eslint.org/)
