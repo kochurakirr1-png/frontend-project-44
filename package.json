@@ -1,0 +1,25 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Brain Games project",
+  "homepage": "https://github.com/kochurakirr1-png/frontend-project-44#readme",
+  "bugs": {
+    "url": "https://github.com/kochurakirr1-png/frontend-project-44/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kochurakirr1-png/frontend-project-44.git"
+  },
+  "license": "ISC",
+  "author": "Kirill Kochura",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm ci",
+    "brain-games": "node bin/brain-games.js"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  }
+}
