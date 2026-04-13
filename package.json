@@ -17,12 +17,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install": "npm ci",
-    "brain-games": "node bin/brain-games.js"
+    "brain-games": "node bin/brain-games.js",
+    "lint": "npx eslint ."
   },
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin-js": "^4.4.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-n": "^17.24.0"
   }
 }
