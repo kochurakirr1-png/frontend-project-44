@@ -26,4 +26,3 @@ const getGameData = () => {
 };
 
 export default getGameData;
-

@@ -28,4 +28,3 @@ export const runGame = (gameDescription, getGameData) => {
 
   console.log('Congratulations, ' + name + '!');
 };
-
