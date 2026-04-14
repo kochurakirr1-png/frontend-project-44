@@ -1,37 +1,38 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.1",
-  "description": "Brain Games project",
-  "homepage": "https://github.com/kochurakirr1-png/frontend-project-44#readme",
-  "bugs": {
-    "url": "https://github.com/kochurakirr1-png/frontend-project-44/issues"
+  "version": "1.0.0",
+  "description": "MindGame",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kochurakirr1-png/frontend-project-44.git"
+    "url": "git+ssh://git@github.com/Zoro13252/frontend-project-44.git"
   },
+  "author": "Sherzod",
   "license": "ISC",
-  "author": "Kirill Kochura",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "npx eslint ."
+  "bugs": {
+    "url": "https://github.com/Zoro13252/frontend-project-44/issues"
   },
+  "homepage": "https://github.com/Zoro13252/frontend-project-44#readme",
+  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
-    "brain-gcd": "bin/brain-gcd.js",
-    "brain-progression": "bin/brain-progression.js",
-    "brain-prime": "bin/brain-prime.js"
+    "brain-gcd": "./bin/brain-gcd.js",
+    "brain-progression": "./bin/brain-progression.js",
+    "brain-prime": "./bin/brain-prime.js"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^8.57.1",
-    "globals": "^17.5.0"
-  }
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0"
+  },
+  "keywords": []
 }

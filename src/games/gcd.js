@@ -1,22 +1,22 @@
-const getRandomNumber = () => Math.floor(Math.random() * 100) + 1;
+const getRandomNumber = () => Math.floor(Math.random() * 100) + 1
 
 // Функция нахождения НОД (алгоритм Евклида)
 const findGCD = (a, b) => {
   while (b !== 0) {
-    const temp = b;
-    b = a % b;
-    a = temp;
+    const temp = b
+    b = a % b
+    a = temp
   }
-  return a;
-};
+  return a
+}
 
 const getGameData = () => {
-  const num1 = getRandomNumber();
-  const num2 = getRandomNumber();
-  const question = num1 + ' ' + num2;
-  const correctAnswer = String(findGCD(num1, num2));
+  const num1 = getRandomNumber()
+  const num2 = getRandomNumber()
+  const question = num1 + ' ' + num2
+  const correctAnswer = String(findGCD(num1, num2))
 
-  return { question, correctAnswer };
-};
+  return { question, correctAnswer }
+}
 
-export default getGameData;
+export default getGameData
