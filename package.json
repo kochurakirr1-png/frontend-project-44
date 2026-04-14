@@ -30,6 +30,8 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "eslint": "^8.57.0"
+    "@eslint/js": "^10.0.1",
+    "eslint": "^8.57.1",
+    "globals": "^17.5.0"
   }
 }
