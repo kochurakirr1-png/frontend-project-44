@@ -1,6 +1,5 @@
 const getRandomNumber = () => Math.floor(Math.random() * 100) + 1
 
-// Функция нахождения НОД (алгоритм Евклида)
 const findGCD = (a, b) => {
   while (b !== 0) {
     const temp = b

@@ -4,8 +4,9 @@
   "description": "MindGame",
   "main": "index.js",
   "scripts": {
-    "test": "test"
-  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "lint": "eslint ."
+},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Zoro13252/frontend-project-44.git"
